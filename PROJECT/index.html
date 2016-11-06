@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="animations.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+	  <title>
+		           RAK ENERGY - Welcome
+	  </title>
+
+    <style type="text/css">
+   a{
+	text-decoration:none;
+    }
+</style> 
+
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+
+
+<script>
+	
+
+	$(window).scroll(function() {
+		$('#object').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("pullDown");
+			}
+		});
+	});
+ 
+	$(window).scroll(function() {
+		$('#orangeline').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("stretchRight");
+			}
+		});
+	});
+	$(window).scroll(function() {
+		$('#aboutanim').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("pullUp");
+			}
+		});
+	});
+	$(window).scroll(function() {
+		$('#contanim').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("pullUp");
+			}
+		});
+	});
+
+	$(window).scroll(function() {
+		$('#orangeline2').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("stretchRight");
+			}
+		});
+	});
+
+	$(window).scroll(function() {
+		$('#locimg').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("tossing");
+			}
+		});
+	});
+
+	$(window).scroll(function() {
+		$('#greyline').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("stretchRight");
+			}
+		});
+	});
+
+$(window).scroll(function() {
+		$('#servanim').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("pullUp");
+			}
+		});
+	});
+
+
+
+<!--SMOOTH SCROLLING-->
+$(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+        if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1500);
+            return false;
+        }
+    });
+});
+	
+</script>
+</head>
+<body>
+
+
+
+
+    <header id="logo" > 
+	<a href="webpage.html">RAK <span style="color: green">ENERGY</span></a>
+	 
+	  <div  class="headtext">
+	    <a  class="page-scroll" href="#HOME" >HOME&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|</a><a  class="page-scroll" href="#SERVICES" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSERVICES&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|</a><a  class="page_scroll" href="#contact_us" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspContact Us&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|</a><a href="#aboutus"  >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAbout Us&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|</a>
+    </div>
+     
+    </header>
+   <div style="height: 80px;"  id="HOME">
+	before image 
+   </div>
+
+  <!--IMAGE SLIDER-->
+    <div  class="holder">
+      <img class="mySlides" src="manpower.jpg" >
+      <img class="mySlides" src="s1.jpg" >
+  <img class="mySlides" src="clean.jpg" >
+  <img class="mySlides" src="diesel.gif" >
+ </div>
+<div id="greensec"></div>
+ <br>
+
+ <!--AFTER IMAGE-->
+
+
+<div id="SERVICES">
+<br><br><br>
+<br>
+ <div style="width: 100%;height: 800px;">
+   <h1 style="font-family: sans-serif;color: lightgreen; padding-bottom:0px;margin-bottom:0px;" id="servanim">SERVICES</h1>
+  <div  id="orangeline"></div>
+ <div style="width: 100%;height: 400px;background-color: #c8cbd1;">	
+ 	<div style="width: 300px; border-radius: 45px;float: left;padding-top: 20px;"  >
+ 		<center><img src="Workers.png" height="300px" width="300px"></center>
+ 	</div>
+    <div style="overflow:hidden;padding-left: 40px;"  >
+    <h1 style="font-family: sans-serif;">MANPOWER SUPPLY</h1>
+    <p style="font-family: sans-serif;">
+    We are a leading consultant, engaged in offering Labor Supply and skilled and unskilled workers to our clients in the recruitment. Our Labor Supply services always help in recruiting the  labors for the prescribed jobs. This helps in saving time, energy and our client's money.
+
+    Manpower Supplying is the part of the RAK ENERGY group; our team is highly characterized by professionals. 
+
+     In this new era of Industrial Growth all the industries have to maintain a regular pace so that they can walk to foot to foot with the world. Manpower is the backbone of industries. It can enhance as well as hamper the company. Our company, Rak energy is best at it's services. 
+We specially deals in these functions
+<ul>
+<li>Manpower Contractor Service</li>
+<li>Labour Supplier Service</li>
+<li>Cleaning Service</li>
+<li>Security Guards</li>
+</ul>
+
+
+We are making the deal worth at any cost and we try to make long relation contacts.
+
+Every client has appreciated our work done by us in the field of manpower supply.
+
+</p>
+    </div>
+</div>
+  <div style="clear:both;"></div>
+
+<div style="width: 100%;height: 400px;background-color: #c8cbd1;margin-top: 30px;">	
+ 	<div style="width: 300px; border-radius: 45px;border-color: red;float: left;padding-top: 20px;"  >
+ 		<center><img src="fuel.png" height="300px" width="300px"></center>
+ 	</div>
+    <div style="overflow:hidden;padding-left: 40px;"  >
+    <h1 style="font-family: sans-serif;">DIESEL TRADING</h1>
+    <p style="font-family: sans-serif;">
+   We provide high quality diesel sourced from throughout the Middle East at competitive prices. Our goal is to deliver fast service with maximum customer satisfaction. We believe in long term business alliances and thus, keep a high standard of customer relations, with personal around the clock service.<br>Rak Energy has a competitive edge in terms of eliminating driver down time, lesser paper work and having control over product quality. Our wide range of services include project wise supply as well. With its extensive coverage of fuel markets in the UAE, 24 hours a day, you can rely on Rak Energy Trading to provide the best fuel trading deals in the market. Our customer oriented approach and strategies backed by a clearer vision has enabled Rak Energy to place itself at a competitive level as a renown diesel/fuel supplier in Dubai and all over the UAE.
+Our staff is well capable to work in any kind of situtation and ensure full support from our end. We give atmost importance for our clients satisfaction. 
+
+</p>
+    </div>
+</div>
+  
+  </div>
+ </div>
+<br><br>
+<!--CONTACT US SECTION-->
+  <div id="contact_us">
+    <br><br><br><br>	
+    <div style="background-color: #053889;padding:30px;" >
+    <p style="font-family: sans-serif;font-size: 20px;color: white;margin-bottom: 10px;"  id="contanim">CONTACT US</p>
+    </div>
+
+<div id="greyline"></div><br><br>
+  <div style="padding-top: 1px;height: 200px;" id="object"> 
+   
+       <a class="custom_font" style="float: left;padding-left: 10px;color: orange">OUR OFFICES</a>
+
+      <div class="subdivision" >
+	   <h3 style="color:orange;">Regional Head Office</h3>
+	    P.O Box 30578<br>
+		Ras Al Khaimah<br>
+		United Arab Emirates<br>
+	    Telephone: <span style="color: orange;">+971  72339505</span>
+      </div>
+
+      <div class="subdivision" style="float: left;">
+	    <h3 style="color:orange;">Other Office</h3>
+	
+	    
+		P.O 560072<br>
+		BANGALORE<br>
+		INDIA<br>
+	    Telephone: <span style="color: orange;">+91 9741236813</span>
+       </div>
+      </div>
+      </div>
+      </div>
+
+      <div style="clear:both;"></div><br><br>
+      <div style="padding:10px;background-color:#3c7987 ">
+      <a class="custom_font" style="float: left;padding-left: 10px;color:  white;text-align: center;width: 100%">LOCATE US</a><br><br>
+      </div>
+      <div class="backim">
+
+      <div id="locateus" >
+
+<img src="locate.png" height="300" width="200" align="center" id="locimg" >
+</div>
+      
+      
+      <div id="mapsection" style="height: 600px;">
+
+      <div id="mapholder">
+  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+<div style='overflow:hidden;height:440px;width:1000px;'><div id='gmap_canvas' style='height:440px;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="https://www.autohuren.world/">cabrio</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(25.802547174171544,55.98172475057071),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(25.802547174171544,55.98172475057071)});infowindow = new google.maps.InfoWindow({content:'<strong>RAK ENERGY</strong><br>RAS AL KHAIMA, UAE<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+</script>
+</div></div></div>
+
+<div style="clear:both;"></div><br><br>
+      <!--ABOUT US SECTION-->
+
+       <div style="width: 100%;height: 500px;" id="aboutus">
+   <h1 style="font-family: sans-serif;color: lightgreen; padding-bottom:0px;margin-bottom:0px;padding-top:20px; " id="aboutanim">ABOUT US</h1>
+  <div  id="orangeline2"></div>
+ <div style="width: 100%;height: 400px;background-color: #c8cbd1;font-size: 20px;">	
+     	<p style="border:0px;margin:0px;padding: 20px;" >
+     	Rak Energy is the world leader in innovative workforce solutions, connecting human potential to the power of business. Rak Energy serves both large and small organizations across all industry sectors through our brands and offerings: Rak Energy Solutions, Experis, Manpower and Right Management.<br><br>
+     	Since its inception, Rak Energy has consistently been achieving its goal of providing clients with the highest quality Executive Search, Recruitment and Training services. From the Junior to the Board levels, the best talents in Dubai can count on us to be partnered with any number of esteemed clients.<br><br>
+        
+
+        To all our clients, employees and even our competitors, thank you for your contribution in helping us foster our culture of excellence and spurring us to even greater heights!<br><br>
+     	Rak Energy  is also a Diesel fuel supply management  company based in UAE, Dubai. We drive out costs and improve our customer's profitability through key services and features enhancing customer's supply chain and fuel management capabilities. Rak Energy based and located in Dubai UAE. <br><br>Rak Energy is your complete source for fuel supply and logistics management services. We can customize, optimize and maximize a complete fueling solution to keep your business thriving. Rak Energy is dedicated to providing economic and efficient supply and distribution of quality fuel products to our customers.
+     	</p>
+</div>
+
+
+
+  
+  </div>
+ 
+<footer id="footer_dis">
+	<
+</footer>
+<script>
+
+var myIndex = 0;
+slideshow();
+
+function slideshow() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(slideshow, 3000); // Change image every 5 seconds
+}
+</script>
+</body>
+</html>
